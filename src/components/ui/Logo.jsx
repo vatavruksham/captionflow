@@ -6,7 +6,6 @@ export default function Logo({ className = '', showText = true }) {
 
   return (
     <Link to="/" className={`flex items-center gap-2.5 ${className}`}>
-      {/* CaptionFlow mark: chat bubble with flowing caption lines, cyan→coral gradient */}
       <svg
         width="34"
         height="34"
@@ -16,12 +15,11 @@ export default function Logo({ className = '', showText = true }) {
         className="shrink-0"
         aria-hidden="true"
       >
-        <rect x="4" y="4" width="56" height="56" rx="16" fill={`url(#${gradientId})`} />
-        <rect x="13" y="15" width="38" height="26" rx="8" fill="#ffffff" />
-        <path d="M22 41 L22 49 L31 41 Z" fill="#ffffff" />
-        <rect x="20" y="22" width="24" height="2.8" rx="1.4" fill="#0891b2" opacity="0.9" />
-        <rect x="20" y="28" width="20" height="2.8" rx="1.4" fill="#0891b2" opacity="0.6" />
-        <rect x="20" y="34" width="14" height="2.8" rx="1.4" fill="#f97316" opacity="0.9" />
+        <rect x="8" y="8" width="48" height="48" rx="14" fill={`url(#${gradientId})`}/>
+        <rect x="16" y="18" width="32" height="22" rx="8" fill="#fff"/>
+        <path d="M24 40v8l10-8H24z" fill="#fff"/>
+        <rect x="22" y="26" width="20" height="3" rx="1.5" fill="#0891b2"/>
+
         <defs>
           <linearGradient
             id={gradientId}
@@ -38,7 +36,7 @@ export default function Logo({ className = '', showText = true }) {
       </svg>
 
       {showText && (
-        <span className="text-xl font-display font-bold gradient-text tracking-tight">
+        <span className="text-xl font-display font-semibold tracking-tight text-ink">
           CaptionFlow
         </span>
       )}
