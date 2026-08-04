@@ -1,0 +1,16 @@
+{
+  "name": "CaptionFlow — AI Caption Generator",
+  "short_name": "CaptionFlow",
+  "description": "Write scroll-stopping captions for Instagram, Facebook, LinkedIn, and X with AI.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4fbfc",
+  "theme_color": "#0891b2",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
