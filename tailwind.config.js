@@ -28,8 +28,8 @@ export default {
         },
       },
       fontFamily: {
-        display: ['Plus Jakarta Sans', 'system-ui', 'sans-serif'],
-        sans: ['Source Sans 3', 'system-ui', 'sans-serif'],
+        display: ['Urbanist', 'system-ui', 'sans-serif'],
+        sans: ['Mulish', 'system-ui', 'sans-serif'],
       },
       boxShadow: {
         card: '0 1px 3px rgba(8,145,178,0.06), 0 8px 24px rgba(8,145,178,0.07)',

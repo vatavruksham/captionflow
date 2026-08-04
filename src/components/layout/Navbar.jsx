@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { createPortal } from 'react-dom';
 import { Link, NavLink } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import Logo from '../ui/Logo';
@@ -19,6 +20,7 @@ export default function Navbar() {
     }`;
 
   return (
+    <>
     <header className="sticky top-0 z-50 border-b border-surface-200 bg-white/70 backdrop-blur-xl">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         <Logo />
@@ -59,13 +61,16 @@ export default function Navbar() {
       </nav>
 
       {/* Mobile Menu Overlay */}
-      {mobileMenuOpen && (
-        <div className="fixed inset-0 z-50 md:hidden">
+    </header>
+      {mobileMenuOpen &&
+        createPortal(
+          (
+        <div className="fixed inset-0 z-[200] md:hidden">
           <div
             className="absolute inset-0 bg-ink/40 backdrop-blur-sm"
             onClick={() => setMobileMenuOpen(false)}
           />
-          <div className="absolute inset-y-0 right-0 w-64 bg-white border-l border-surface-200 shadow-xl flex flex-col p-6">
+          <div className="absolute inset-y-0 right-0 w-64 border-l border-surface-200 flex flex-col p-6 z-[201] bg-white shadow-2xl" style={{ backgroundColor: '#ffffff' }}>
             <button
               className="self-end text-ink-soft hover:text-primary p-2 mb-6"
               onClick={() => setMobileMenuOpen(false)}
@@ -105,7 +110,9 @@ export default function Navbar() {
             </div>
           </div>
         </div>
-      )}
-    </header>
+          ),
+          document.body
+        )}
+    </>
   );
 }
