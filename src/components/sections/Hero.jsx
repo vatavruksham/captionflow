@@ -54,7 +54,7 @@ export default function Hero() {
               style={stagger(160)}
             >
               Engaging captions for Instagram, Facebook, LinkedIn, and X — generated in
-              seconds. Pick a platform, topic, and vibe, and CaptionFlow writes hooks,
+              seconds. Pick a platform, topic, and vibe, and AI writes hooks,
               hashtags, and ready-to-post variants tailored to your brand voice.
             </p>
 

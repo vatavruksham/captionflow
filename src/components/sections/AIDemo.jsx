@@ -212,7 +212,7 @@ export default function AIDemo() {
         <SectionHeading
           eyebrow="Live AI Demo"
           title="Try the AI Right Here"
-          subtitle="Pick a platform, describe your topic, and choose a vibe — CaptionFlow writes three ready-to-post caption variants with hashtags."
+          subtitle="Pick a platform, describe your topic, and choose a vibe — AI writes three ready-to-post caption variants with hashtags."
         />
 
         <div className="glass mx-auto max-w-4xl rounded-3xl p-6 sm:p-8">
