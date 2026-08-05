@@ -63,6 +63,19 @@ export default function About() {
         </AnimateOnScroll>
       </section>
 
+
+      {/* Our AI */}
+      <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <AnimateOnScroll delay={150}>
+          <div className="rounded-2xl border border-surface-200 bg-white/70 p-8 shadow-card backdrop-blur">
+            <h3 className="mb-4 font-display text-xl font-bold text-ink">Our AI</h3>
+            <p className="leading-relaxed text-ink-soft">
+              CaptionFlow fine-tunes language models for platform-specific hooks, tone, and hashtag patterns. Caption inference is productized so social teams get scroll-stopping copy from software, not freelance caption writers.
+            </p>
+          </div>
+        </AnimateOnScroll>
+      </section>
+
       {/* Team */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 pb-20">
         <h3 className="mb-8 text-center font-display text-2xl font-bold text-ink">
