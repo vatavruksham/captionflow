@@ -4,7 +4,7 @@ import AnimateOnScroll from '../components/ui/AnimateOnScroll';
 import { features } from '../data/features';
 
 export default function Features() {
-  useDocumentTitle('Features — CaptionFlow');
+  useDocumentTitle('Features - CaptionFlow');
 
   return (
     <>

@@ -1,12 +1,12 @@
 import { useEffect } from 'react';
 
-const DEFAULT_TITLE = 'CaptionFlow — AI Caption Generator';
+const DEFAULT_TITLE = 'CaptionFlow - AI Caption Generator';
 
 export default function useDocumentTitle(title, description) {
   useEffect(() => {
     const previousTitle = document.title;
 
-    document.title = title ? `${title} | CaptionFlow` : DEFAULT_TITLE;
+    document.title = title ? `${title} - CaptionFlow` : DEFAULT_TITLE;
 
     let metaDescription = document.querySelector('meta[name="description"]');
     const previousDescription = metaDescription

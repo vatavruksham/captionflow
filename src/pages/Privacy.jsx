@@ -2,7 +2,7 @@ import useDocumentTitle from '../hooks/useDocumentTitle';
 import SectionHeading from '../components/ui/SectionHeading';
 
 export default function Privacy() {
-  useDocumentTitle('Privacy Policy — CaptionFlow');
+  useDocumentTitle('Privacy Policy - CaptionFlow');
 
   return (
     <>

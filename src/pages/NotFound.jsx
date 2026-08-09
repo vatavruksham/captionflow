@@ -3,7 +3,7 @@ import { Home } from 'lucide-react';
 import useDocumentTitle from '../hooks/useDocumentTitle';
 
 export default function NotFound() {
-  useDocumentTitle('404 — Page Not Found');
+  useDocumentTitle('404 - Page Not Found');
 
   return (
     <section className="min-h-[60vh] flex items-center justify-center bg-gradient-to-b from-surface-100 to-surface-50 px-4">

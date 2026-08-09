@@ -7,7 +7,7 @@ import Testimonials from '../components/sections/Testimonials';
 import CTABanner from '../components/sections/CTABanner';
 
 export default function Home() {
-  useDocumentTitle('CaptionFlow — Write Captions That Convert with AI');
+  useDocumentTitle('CaptionFlow - Write Captions That Convert with AI');
 
   return (
     <>

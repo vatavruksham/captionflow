@@ -4,7 +4,7 @@ import AnimateOnScroll from '../components/ui/AnimateOnScroll';
 import { team } from '../data/team';
 
 export default function About() {
-  useDocumentTitle('About — CaptionFlow');
+  useDocumentTitle('About - CaptionFlow');
 
   return (
     <>

@@ -5,7 +5,7 @@ import SectionHeading from '../components/ui/SectionHeading';
 import { validateEmail } from '../utils/validation';
 
 export default function Contact() {
-  useDocumentTitle('Contact — CaptionFlow');
+  useDocumentTitle('Contact - CaptionFlow');
 
   const [form, setForm] = useState({ name: '', email: '', subject: '', message: '' });
   const [errors, setErrors] = useState({});
