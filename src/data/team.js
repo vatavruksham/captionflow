@@ -9,7 +9,7 @@ export const team = [
   {
     name: 'Priya Sharma',
     title: 'CEO & Co-Founder',
-    email: 'priya@captionflow.app',
+    email: 'priya@captionflow.online',
     photo: avatar('Priya Sharma'),
     bio: 'Priya led content strategy for consumer brands across Toronto before founding CaptionFlow. She set out to solve the one bottleneck every social team shares: writing good captions, fast.',
     imagePrompt:
@@ -18,7 +18,7 @@ export const team = [
   {
     name: 'Liam O\u2019Brien',
     title: 'CTO & Co-Founder',
-    email: 'liam@captionflow.app',
+    email: 'liam@captionflow.online',
     photo: avatar('Liam OBrien'),
     bio: 'Liam is a natural language processing engineer who previously built writing assistants used by millions. He leads the AI engine that generates CaptionFlow\u2019s hooks, hashtags, and tone variants.',
     imagePrompt:
@@ -27,7 +27,7 @@ export const team = [
   {
     name: 'Wei Chen',
     title: 'Head of Product',
-    email: 'wei@captionflow.app',
+    email: 'wei@captionflow.online',
     photo: avatar('Wei Chen'),
     bio: 'Wei has spent years designing content tools for creators and marketing teams. She ensures every step of CaptionFlow, from platform picker to caption card, feels fast and intuitive.',
     imagePrompt:
@@ -36,7 +36,7 @@ export const team = [
   {
     name: 'Fatima Ahmed',
     title: 'VP Engineering',
-    email: 'fatima@captionflow.app',
+    email: 'fatima@captionflow.online',
     photo: avatar('Fatima Ahmed'),
     bio: 'Fatima is a platform infrastructure specialist who has scaled publishing systems serving global brands. She keeps CaptionFlow fast and reliable as caption requests scale across every platform.',
     imagePrompt:

@@ -130,8 +130,8 @@ export default function Contact() {
 
           <p className="mt-6 text-center text-sm text-ink-muted">
             Or email us directly at{' '}
-            <a href="mailto:support@captionflow.app" className="text-primary hover:underline">
-              support@captionflow.app
+            <a href="mailto:support@captionflow.online" className="text-primary hover:underline">
+              support@captionflow.online
             </a>
           </p>
         </div>

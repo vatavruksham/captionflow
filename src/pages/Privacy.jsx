@@ -49,12 +49,12 @@ export default function Privacy() {
           <p className="mb-4 leading-relaxed text-ink-soft">
             You have the right to access, correct, or delete your personal data. You may
             also request data portability or restrict processing. Contact us at
-            support@captionflow.app to exercise these rights.
+            support@captionflow.online to exercise these rights.
           </p>
 
           <h3 className="font-display font-bold text-ink">6. Contact</h3>
           <p className="leading-relaxed text-ink-soft">
-            For privacy-related inquiries, please contact us at support@captionflow.app.
+            For privacy-related inquiries, please contact us at support@captionflow.online.
           </p>
         </div>
       </section>

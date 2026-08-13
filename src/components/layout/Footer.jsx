@@ -45,10 +45,10 @@ export default function Footer() {
             </p>
             <p className="text-sm text-ink-soft">
               <a
-                href="mailto:support@captionflow.app"
+                href="mailto:support@captionflow.online"
                 className="transition-colors duration-300 hover:text-primary"
               >
-                support@captionflow.app
+                support@captionflow.online
               </a>
             </p>
           </div>
@@ -116,7 +116,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="mt-8 border-t border-surface-200 pt-8 text-center">
           <p className="text-sm text-ink-muted">
-            CaptionFlow @ 2026 | All rights reserved.
+            © 2026 CaptionFlow. All rights reserved.
           </p>
         </div>
       </div>
